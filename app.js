@@ -19,6 +19,7 @@ const session = require('express-session');
 const flash = require('express-flash');
 const crypto = require('crypto');
 const authenticateToken = require('./middleware/authMiddleware');
+THIS IS THE BUGGED COMMENT
 const secretKey = process.env.SECRET_KEY;
 // Middleware for session handling
 app.use(session({
