@@ -26,7 +26,7 @@ app.use(session({
   resave: false,
   saveUninitialized: true
 }));
-
+console.log('bugged push');
 // Middleware for flash messages
 app.use(flash());
 app.set('view engine', 'ejs');
